@@ -133,3 +133,23 @@ ul {
     justify-content: flex-end;
     align-items: center;
 }
+
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        margin-top: 6rem;
+        padding: 0.5rem;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .add-button {
+        font-size: 16px;
+    }
+
+    .add-butto-list {
+        font-size: 16px;
+    }
+}
