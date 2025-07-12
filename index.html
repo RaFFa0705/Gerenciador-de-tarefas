@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Gerenciador de tarefas</title>
+</head>
+<body>
+    <main class="container">
+        <h1>Gerenciador de tarefas</h1>
+            <form class="todo-form">
+                    <input type="text" placeholder="Nome da tarefa" name="nome da tarefa" id="text-input">
+                    <input type="text" placeholder="Etiqueta" name="Etiqueta" id="text-input">
+                    <button type="submit" class="add-button">+</button>
+            </form>
+            <ul>
+                <li class="total-list">
+                    <div class="toda-list">
+                        <p>Implementar tela de listagem de tarefas</p>
+                        <small class="tag">frontend</small>
+                        <small class="sub-tag">Criado em: 21/08/2024</small>
+                    </div>
+                        <button class="add-butto-list">concluir</button>
+                </li>
+                <li class="total-list">
+                    <div class="toda-list">
+                        <p>Criar endpoint para cadastro de tarefas</p>
+                        <small class="tag">backend</small>
+                        <small class="sub-tag">Criado em: 21/08/2024</small>
+                    </div>
+                        <button type="submit" class="add-butto-list">concluir</button>
+                </li>
+                <li class="total-list">
+                    <div class="toda-list">
+                    <p>Implementar protótipo da listagem de tarefas</p>
+                    <small class="tag">ux</small>
+                    <small class="sub-tag">Criado em: 21/08/2024</small>
+                    </div>
+                    <button class="add-butto-list">concluir</button>
+                </li>
+            </ul> 
+            <footer class="footer-final">
+                <p>0 tarefa concluída</p>
+            </footer>          
+    </main>
+</body>
+</html>
